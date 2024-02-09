@@ -134,7 +134,7 @@ public:
 
     void init()
     {
-        blePeripheral.setLocalName("StressGadget_Zemnuhov");
+        blePeripheral.setLocalName("EmoTracker");
         blePeripheral.setAdvertisedServiceUuid(baseService.uuid());
 
         blePeripheral.setEventHandler(BLEConnected, bleConnectedEventHandler);
